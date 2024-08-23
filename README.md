@@ -1,4 +1,4 @@
-# UM Redirect Error Trace
+# UM Redirect and Error Trace
 Extension to Ultimate Member for logging of UM and WP Errors and Redirects.
 
 This plugin will trace the activity of error handling and redirects by UM and WP. 
