@@ -9,7 +9,8 @@ The log is written to `.../wp-content/debug.log` with redirects and messages dur
 None
 
 ## Updates
-Version 1.1.0 More details about Login errors
+* Version 1.1.0 More details about Login errors
+* Version 1.1.1 Code update
 
 ## Installation
 1. Install by downloading the plugin ZIP file and install as a new Plugin, which you upload in WordPress -> Plugins -> Add New -> Upload Plugin.
