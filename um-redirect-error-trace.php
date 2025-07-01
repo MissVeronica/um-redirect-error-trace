@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Ultimate Member - Redirect and Error Trace
  * Description:     Extension to Ultimate Member for logging of UM and WP Errors and Redirects.
- * Version:         1.1.0
+ * Version:         1.1.1
  * Requires PHP:    7.4
  * Author:          Miss Veronica
  * License:         GPL v2 or later
@@ -77,8 +77,6 @@ class UM_Redirect_Error_Trace {
                         if ( ! empty( $user_name )) {
 
                             $data = get_user_by( 'login', $user_name );
-                            global $um_html_view_function;
-                            $um_html_view_function->debug_cpu_update_profile( $data, __FUNCTION__, 'data x', basename( $_SERVER['PHP_SELF'] ), __line__ );
 
                             $user_name2 = isset( $data->user_login ) ? $data->user_login : '';
 
